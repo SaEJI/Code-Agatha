@@ -49,7 +49,7 @@ void GameManager::start(GameState* state)
  
     changeState(state);
  
-    //mRoot->startRendering();
+    mRoot->startRendering();
 }
 
 void GameManager::loop()
