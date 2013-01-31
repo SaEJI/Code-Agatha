@@ -11,7 +11,7 @@ using namespace VIEW;
  
 template<> GameManager* Ogre::Singleton<GameManager>::msSingleton = 0;
  
-GameManager::GameManager() 
+GameManager::GameManager()
 	: mRoot(0), mInputManager(0)
 {
     //mRoot = 0;
